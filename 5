@@ -1,0 +1,90 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    setlocale(LC_ALL,"");
+    switch(a%5)
+    {
+        case 0:
+        {
+            cout<<"год красн";
+            break;
+        }
+        case 1:
+        {
+            cout<<"год жёлт";
+            break;
+        }
+        case 2:
+        {
+            cout<<"год бел";
+            break;
+        }
+        case 3:
+        {
+            cout<<"год черн";
+            break;
+        }
+        case 4:
+        {
+            cout<<"год зелён";
+            break;
+        }
+    }
+    switch((a%12)-3)
+    {
+        case 0:
+        {
+            cout<<"ой свиньи";
+            break;
+        }
+        case 1:
+        {
+            cout<<"ой крысы";
+            break;
+        }case 2:
+        {
+            cout<<"ой коровы";
+            break;
+        }case 3:
+        {
+            cout<<"ого тигра";
+            break;
+        }case 4:
+        {
+            cout<<"ого зайца";
+            break;
+        }case 5:
+        {
+            cout<<"ого дракона";
+            break;
+        }case 6:
+        {
+            cout<<"ой змеи";
+            break;
+        }case 7:
+        {
+            cout<<"ой лошади";
+            break;
+        }case 8:
+        {
+            cout<<"ой овцы";
+            break;
+        }case 9:
+        {
+            cout<<"ой обезьяны";
+            break;
+        }case 10:
+        {
+            cout<<"ой курицы";
+            break;
+        }case 11:
+        {
+            cout<<"ой собаки";
+            break;
+        }
+    }
+    return 0;
+}
